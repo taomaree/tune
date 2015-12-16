@@ -13,7 +13,7 @@ Debian
 
 # How to use
 ```
-sudo curl -sSL https://raw.githubusercontent.com/taomaree/tune/master/tune.sh | sh
+curl -sSL https://raw.githubusercontent.com/taomaree/tune/master/tune.sh | sudo sh
 ```
 
 # License
