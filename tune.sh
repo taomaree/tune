@@ -9,4 +9,6 @@ wget -N ${SYSCTL_URL} -P /etc/sysctl.d/
 wget -N ${LIMITS_URL} -P /etc/security/limits.d/
 sysctl -f /etc/sysctl.d/91-sysctl.conf
 
+echo "#####################################"
+echo "#####################################"
 echo "you need reboot system to set ulimit."
